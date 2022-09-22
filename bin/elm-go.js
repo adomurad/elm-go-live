@@ -43,6 +43,7 @@ program
   .option('-v, --verbose [verbose]', 'Will log more steps as your server starts up.', false)
   .option('--no-reload [no-releoad]', 'Turn off live reload. This means you will need to manual reload your website after each build to see the changes.')
   .option('--no-server [no-server]', 'Turn off the server for elm-go. This is useful when you are using elm inside of another development ecosystem.')
+  .option('--cors [cors]', 'Enable CORS for the server.')
   .on('--help', help)
   .parse(process.argv)
 
