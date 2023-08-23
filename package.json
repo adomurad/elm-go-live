@@ -3,7 +3,7 @@
   "version": "5.1.0",
   "description": "A flexible dev server for Elm. Live reload included!",
   "bin": {
-    "elm-go": "bin/elm-go-live-css.js"
+    "elm-go-live-css": "bin/elm-go-live-css.js"
   },
   "main": "./lib/index.js",
   "dependencies": {
