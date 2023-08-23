@@ -44,6 +44,7 @@ program
   .option('--no-reload [no-releoad]', 'Turn off live reload. This means you will need to manual reload your website after each build to see the changes.')
   .option('--no-server [no-server]', 'Turn off the server for elm-go. This is useful when you are using elm inside of another development ecosystem.')
   .option('--cors [cors]', 'Enable CORS for the server.')
+  .option('--hot-css', "Watch and reload css files in the specified base for static content.")
   .on('--help', help)
   .parse(process.argv)
 

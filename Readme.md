@@ -1,3 +1,17 @@
+# elm-go-live
+
+**elm-go-live** is a fork of https://github.com/lucamug/elm-go which is a fork of https://github.com/wking-io/elm-live ...
+
+I created this only for my own purpose - I needed elm-go/elm-live to hot-replace css files in the static base dir.
+
+The only difference from elm-go is:
+
+- you can use the `--hot-css` flag which will enable hot swapping css styles from the specified static base directory. This can only be used when using a server, the `--hot` flag, and the `--dir` is specified
+
+And now the original readme:
+___
+
+
 ### This is a fork of https://github.com/wking-io/elm-live
 
 It is 100% compatible with it. These are the main differences:
