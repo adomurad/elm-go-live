@@ -1,6 +1,6 @@
-# elm-go-live
+# elm-go-live-css
 
-**elm-go-live** is a fork of https://github.com/lucamug/elm-go which is a fork of https://github.com/wking-io/elm-live ...
+**elm-go-live-css** is a fork of https://github.com/lucamug/elm-go which is a fork of https://github.com/wking-io/elm-live ...
 
 I created this only for my own purpose - I needed elm-go/elm-live to hot-replace css files in the static base dir.
 
